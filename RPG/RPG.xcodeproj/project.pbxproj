@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49EFBE741B15F40500FE6B06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBE731B15F40500FE6B06 /* AppDelegate.swift */; };
+		49EFBE761B15F40500FE6B06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBE751B15F40500FE6B06 /* ViewController.swift */; };
+		49EFBE791B15F40500FE6B06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EFBE771B15F40500FE6B06 /* Main.storyboard */; };
+		49EFBE7B1B15F40500FE6B06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49EFBE7A1B15F40500FE6B06 /* Images.xcassets */; };
+		49EFBE7E1B15F40500FE6B06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EFBE7C1B15F40500FE6B06 /* LaunchScreen.xib */; };
+		49EFBE8A1B15F40500FE6B06 /* RPGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBE891B15F40500FE6B06 /* RPGTests.swift */; };
+		49EFBE941B1602DA00FE6B06 /* RPGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBE931B1602DA00FE6B06 /* RPGViewController.swift */; };
+		49EFBE971B1633B500FE6B06 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBE961B1633B500FE6B06 /* Character.swift */; };
+		49EFBE991B16342A00FE6B06 /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBE981B16342A00FE6B06 /* Warrior.swift */; };
+		49EFBE9B1B16348C00FE6B06 /* DecoratedCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBE9A1B16348C00FE6B06 /* DecoratedCharacter.swift */; };
+		49EFBE9D1B16357500FE6B06 /* CharacterWithHalberd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBE9C1B16357500FE6B06 /* CharacterWithHalberd.swift */; };
+		49EFBE9F1B1635F200FE6B06 /* CharacterWithSword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBE9E1B1635F200FE6B06 /* CharacterWithSword.swift */; };
+		49EFBEA11B16361300FE6B06 /* CharacterWithAxe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBEA01B16361300FE6B06 /* CharacterWithAxe.swift */; };
+		49EFBEA31B16364A00FE6B06 /* CharacterWithBloodAmulet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBEA21B16364A00FE6B06 /* CharacterWithBloodAmulet.swift */; };
+		49EFBEA51B16369800FE6B06 /* CharacterWithDragonEyeAmulet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBEA41B16369800FE6B06 /* CharacterWithDragonEyeAmulet.swift */; };
+		49EFBEA81B163ACD00FE6B06 /* CharacterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBEA71B163ACD00FE6B06 /* CharacterFactory.swift */; };
+		49EFBEAB1B16460400FE6B06 /* UIColor+RPGColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBEAA1B16460400FE6B06 /* UIColor+RPGColors.swift */; };
+		49EFBEAE1B164AE900FE6B06 /* BattleCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBEAD1B164AE900FE6B06 /* BattleCommand.swift */; };
+		49EFBEB01B164F9600FE6B06 /* HandFightCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBEAF1B164F9600FE6B06 /* HandFightCommand.swift */; };
+		49EFBEB21B16515200FE6B06 /* MeleeFightCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBEB11B16515200FE6B06 /* MeleeFightCommand.swift */; };
+		49EFBEB41B16519E00FE6B06 /* DoNothingCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBEB31B16519E00FE6B06 /* DoNothingCommand.swift */; };
+		49EFBEB61B1651C700FE6B06 /* CommandFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFBEB51B1651C700FE6B06 /* CommandFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49EFBE841B15F40500FE6B06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49EFBE661B15F40500FE6B06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49EFBE6D1B15F40500FE6B06;
+			remoteInfo = RPG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49EFBE6E1B15F40500FE6B06 /* RPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EFBE721B15F40500FE6B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49EFBE731B15F40500FE6B06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49EFBE751B15F40500FE6B06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49EFBE781B15F40500FE6B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49EFBE7A1B15F40500FE6B06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49EFBE7D1B15F40500FE6B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		49EFBE831B15F40500FE6B06 /* RPGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EFBE881B15F40500FE6B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49EFBE891B15F40500FE6B06 /* RPGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGTests.swift; sourceTree = "<group>"; };
+		49EFBE931B1602DA00FE6B06 /* RPGViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPGViewController.swift; sourceTree = "<group>"; };
+		49EFBE961B1633B500FE6B06 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		49EFBE981B16342A00FE6B06 /* Warrior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
+		49EFBE9A1B16348C00FE6B06 /* DecoratedCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecoratedCharacter.swift; sourceTree = "<group>"; };
+		49EFBE9C1B16357500FE6B06 /* CharacterWithHalberd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterWithHalberd.swift; sourceTree = "<group>"; };
+		49EFBE9E1B1635F200FE6B06 /* CharacterWithSword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterWithSword.swift; sourceTree = "<group>"; };
+		49EFBEA01B16361300FE6B06 /* CharacterWithAxe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterWithAxe.swift; sourceTree = "<group>"; };
+		49EFBEA21B16364A00FE6B06 /* CharacterWithBloodAmulet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterWithBloodAmulet.swift; sourceTree = "<group>"; };
+		49EFBEA41B16369800FE6B06 /* CharacterWithDragonEyeAmulet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterWithDragonEyeAmulet.swift; sourceTree = "<group>"; };
+		49EFBEA71B163ACD00FE6B06 /* CharacterFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterFactory.swift; sourceTree = "<group>"; };
+		49EFBEAA1B16460400FE6B06 /* UIColor+RPGColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RPGColors.swift"; sourceTree = "<group>"; };
+		49EFBEAD1B164AE900FE6B06 /* BattleCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleCommand.swift; sourceTree = "<group>"; };
+		49EFBEAF1B164F9600FE6B06 /* HandFightCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandFightCommand.swift; sourceTree = "<group>"; };
+		49EFBEB11B16515200FE6B06 /* MeleeFightCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeleeFightCommand.swift; sourceTree = "<group>"; };
+		49EFBEB31B16519E00FE6B06 /* DoNothingCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoNothingCommand.swift; sourceTree = "<group>"; };
+		49EFBEB51B1651C700FE6B06 /* CommandFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandFactory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49EFBE6B1B15F40500FE6B06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49EFBE801B15F40500FE6B06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49EFBE651B15F40500FE6B06 = {
+			isa = PBXGroup;
+			children = (
+				49EFBE701B15F40500FE6B06 /* RPG */,
+				49EFBE861B15F40500FE6B06 /* RPGTests */,
+				49EFBE6F1B15F40500FE6B06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49EFBE6F1B15F40500FE6B06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49EFBE6E1B15F40500FE6B06 /* RPG.app */,
+				49EFBE831B15F40500FE6B06 /* RPGTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49EFBE701B15F40500FE6B06 /* RPG */ = {
+			isa = PBXGroup;
+			children = (
+				49EFBEAC1B164AD200FE6B06 /* Command */,
+				49EFBEA91B1645C600FE6B06 /* Decorator using Category */,
+				49EFBE951B16336800FE6B06 /* Decorator */,
+				49EFBEA61B163A4300FE6B06 /* Factory Method */,
+				49EFBE731B15F40500FE6B06 /* AppDelegate.swift */,
+				49EFBE751B15F40500FE6B06 /* ViewController.swift */,
+				49EFBE771B15F40500FE6B06 /* Main.storyboard */,
+				49EFBE7A1B15F40500FE6B06 /* Images.xcassets */,
+				49EFBE7C1B15F40500FE6B06 /* LaunchScreen.xib */,
+				49EFBE711B15F40500FE6B06 /* Supporting Files */,
+				49EFBE931B1602DA00FE6B06 /* RPGViewController.swift */,
+			);
+			path = RPG;
+			sourceTree = "<group>";
+		};
+		49EFBE711B15F40500FE6B06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49EFBE721B15F40500FE6B06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49EFBE861B15F40500FE6B06 /* RPGTests */ = {
+			isa = PBXGroup;
+			children = (
+				49EFBE891B15F40500FE6B06 /* RPGTests.swift */,
+				49EFBE871B15F40500FE6B06 /* Supporting Files */,
+			);
+			path = RPGTests;
+			sourceTree = "<group>";
+		};
+		49EFBE871B15F40500FE6B06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49EFBE881B15F40500FE6B06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49EFBE951B16336800FE6B06 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				49EFBE961B1633B500FE6B06 /* Character.swift */,
+				49EFBE981B16342A00FE6B06 /* Warrior.swift */,
+				49EFBE9A1B16348C00FE6B06 /* DecoratedCharacter.swift */,
+				49EFBE9C1B16357500FE6B06 /* CharacterWithHalberd.swift */,
+				49EFBE9E1B1635F200FE6B06 /* CharacterWithSword.swift */,
+				49EFBEA01B16361300FE6B06 /* CharacterWithAxe.swift */,
+				49EFBEA21B16364A00FE6B06 /* CharacterWithBloodAmulet.swift */,
+				49EFBEA41B16369800FE6B06 /* CharacterWithDragonEyeAmulet.swift */,
+			);
+			name = Decorator;
+			sourceTree = "<group>";
+		};
+		49EFBEA61B163A4300FE6B06 /* Factory Method */ = {
+			isa = PBXGroup;
+			children = (
+				49EFBEA71B163ACD00FE6B06 /* CharacterFactory.swift */,
+				49EFBEB51B1651C700FE6B06 /* CommandFactory.swift */,
+			);
+			name = "Factory Method";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		49EFBEA91B1645C600FE6B06 /* Decorator using Category */ = {
+			isa = PBXGroup;
+			children = (
+				49EFBEAA1B16460400FE6B06 /* UIColor+RPGColors.swift */,
+			);
+			name = "Decorator using Category";
+			sourceTree = "<group>";
+		};
+		49EFBEAC1B164AD200FE6B06 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				49EFBEAD1B164AE900FE6B06 /* BattleCommand.swift */,
+				49EFBEAF1B164F9600FE6B06 /* HandFightCommand.swift */,
+				49EFBEB11B16515200FE6B06 /* MeleeFightCommand.swift */,
+				49EFBEB31B16519E00FE6B06 /* DoNothingCommand.swift */,
+			);
+			name = Command;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49EFBE6D1B15F40500FE6B06 /* RPG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49EFBE8D1B15F40500FE6B06 /* Build configuration list for PBXNativeTarget "RPG" */;
+			buildPhases = (
+				49EFBE6A1B15F40500FE6B06 /* Sources */,
+				49EFBE6B1B15F40500FE6B06 /* Frameworks */,
+				49EFBE6C1B15F40500FE6B06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPG;
+			productName = RPG;
+			productReference = 49EFBE6E1B15F40500FE6B06 /* RPG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49EFBE821B15F40500FE6B06 /* RPGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49EFBE901B15F40500FE6B06 /* Build configuration list for PBXNativeTarget "RPGTests" */;
+			buildPhases = (
+				49EFBE7F1B15F40500FE6B06 /* Sources */,
+				49EFBE801B15F40500FE6B06 /* Frameworks */,
+				49EFBE811B15F40500FE6B06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49EFBE851B15F40500FE6B06 /* PBXTargetDependency */,
+			);
+			name = RPGTests;
+			productName = RPGTests;
+			productReference = 49EFBE831B15F40500FE6B06 /* RPGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49EFBE661B15F40500FE6B06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "SERGIO J RAFAEL ORDINE";
+				TargetAttributes = {
+					49EFBE6D1B15F40500FE6B06 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					49EFBE821B15F40500FE6B06 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 49EFBE6D1B15F40500FE6B06;
+					};
+				};
+			};
+			buildConfigurationList = 49EFBE691B15F40500FE6B06 /* Build configuration list for PBXProject "RPG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49EFBE651B15F40500FE6B06;
+			productRefGroup = 49EFBE6F1B15F40500FE6B06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49EFBE6D1B15F40500FE6B06 /* RPG */,
+				49EFBE821B15F40500FE6B06 /* RPGTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49EFBE6C1B15F40500FE6B06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EFBE791B15F40500FE6B06 /* Main.storyboard in Resources */,
+				49EFBE7E1B15F40500FE6B06 /* LaunchScreen.xib in Resources */,
+				49EFBE7B1B15F40500FE6B06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49EFBE811B15F40500FE6B06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49EFBE6A1B15F40500FE6B06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EFBE761B15F40500FE6B06 /* ViewController.swift in Sources */,
+				49EFBE991B16342A00FE6B06 /* Warrior.swift in Sources */,
+				49EFBEA81B163ACD00FE6B06 /* CharacterFactory.swift in Sources */,
+				49EFBE9D1B16357500FE6B06 /* CharacterWithHalberd.swift in Sources */,
+				49EFBEAE1B164AE900FE6B06 /* BattleCommand.swift in Sources */,
+				49EFBE9F1B1635F200FE6B06 /* CharacterWithSword.swift in Sources */,
+				49EFBE941B1602DA00FE6B06 /* RPGViewController.swift in Sources */,
+				49EFBE741B15F40500FE6B06 /* AppDelegate.swift in Sources */,
+				49EFBEB01B164F9600FE6B06 /* HandFightCommand.swift in Sources */,
+				49EFBEA31B16364A00FE6B06 /* CharacterWithBloodAmulet.swift in Sources */,
+				49EFBEB61B1651C700FE6B06 /* CommandFactory.swift in Sources */,
+				49EFBE971B1633B500FE6B06 /* Character.swift in Sources */,
+				49EFBEB21B16515200FE6B06 /* MeleeFightCommand.swift in Sources */,
+				49EFBEAB1B16460400FE6B06 /* UIColor+RPGColors.swift in Sources */,
+				49EFBE9B1B16348C00FE6B06 /* DecoratedCharacter.swift in Sources */,
+				49EFBEB41B16519E00FE6B06 /* DoNothingCommand.swift in Sources */,
+				49EFBEA11B16361300FE6B06 /* CharacterWithAxe.swift in Sources */,
+				49EFBEA51B16369800FE6B06 /* CharacterWithDragonEyeAmulet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49EFBE7F1B15F40500FE6B06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EFBE8A1B15F40500FE6B06 /* RPGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49EFBE851B15F40500FE6B06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49EFBE6D1B15F40500FE6B06 /* RPG */;
+			targetProxy = 49EFBE841B15F40500FE6B06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49EFBE771B15F40500FE6B06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49EFBE781B15F40500FE6B06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49EFBE7C1B15F40500FE6B06 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49EFBE7D1B15F40500FE6B06 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49EFBE8B1B15F40500FE6B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		49EFBE8C1B15F40500FE6B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49EFBE8E1B15F40500FE6B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RPG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49EFBE8F1B15F40500FE6B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RPG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49EFBE911B15F40500FE6B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RPGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPG.app/RPG";
+			};
+			name = Debug;
+		};
+		49EFBE921B15F40500FE6B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RPGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPG.app/RPG";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49EFBE691B15F40500FE6B06 /* Build configuration list for PBXProject "RPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EFBE8B1B15F40500FE6B06 /* Debug */,
+				49EFBE8C1B15F40500FE6B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49EFBE8D1B15F40500FE6B06 /* Build configuration list for PBXNativeTarget "RPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EFBE8E1B15F40500FE6B06 /* Debug */,
+				49EFBE8F1B15F40500FE6B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49EFBE901B15F40500FE6B06 /* Build configuration list for PBXNativeTarget "RPGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EFBE911B15F40500FE6B06 /* Debug */,
+				49EFBE921B15F40500FE6B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49EFBE661B15F40500FE6B06 /* Project object */;
+}

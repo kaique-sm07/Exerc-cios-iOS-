@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302B7E7B1B1626B100E69791 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 302B7E7A1B1626B100E69791 /* main.m */; };
+		302B7E7E1B1626B100E69791 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 302B7E7D1B1626B100E69791 /* AppDelegate.m */; };
+		302B7E811B1626B100E69791 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 302B7E801B1626B100E69791 /* GameScene.m */; };
+		302B7E831B1626B100E69791 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 302B7E821B1626B100E69791 /* GameScene.sks */; };
+		302B7E861B1626B100E69791 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302B7E851B1626B100E69791 /* GameViewController.m */; };
+		302B7E891B1626B100E69791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302B7E871B1626B100E69791 /* Main.storyboard */; };
+		302B7E8B1B1626B100E69791 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302B7E8A1B1626B100E69791 /* Images.xcassets */; };
+		302B7E8E1B1626B100E69791 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302B7E8C1B1626B100E69791 /* LaunchScreen.xib */; };
+		302B7E9A1B1626B100E69791 /* SurvivorAstronautTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 302B7E991B1626B100E69791 /* SurvivorAstronautTests.m */; };
+		302B7EB01B16386D00E69791 /* I-pixel-u.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 302B7EA41B16386D00E69791 /* I-pixel-u.ttf */; };
+		302B7EB31B16386D00E69791 /* enemyShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 302B7EA91B16386D00E69791 /* enemyShader.fsh */; };
+		302B7EB51B16386D00E69791 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 302B7EAC1B16386D00E69791 /* hit.wav */; };
+		302B7EB61B16386D00E69791 /* score.wav in Resources */ = {isa = PBXBuildFile; fileRef = 302B7EAD1B16386D00E69791 /* score.wav */; };
+		302B7EB71B16386D00E69791 /* background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 302B7EAF1B16386D00E69791 /* background.mp4 */; };
+		302B7EBA1B1640D700E69791 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 302B7EB81B1640D700E69791 /* StarField.sks */; };
+		302B7EBB1B1640D700E69791 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 302B7EB91B1640D700E69791 /* spark.png */; };
+		302B7EBE1B16488E00E69791 /* AsteroidBeltNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 302B7EBD1B16488E00E69791 /* AsteroidBeltNode.m */; };
+		305DCE7E1B1771F0001997D5 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 305DCE7D1B1771F0001997D5 /* Fire.sks */; };
+		305DCE801B179758001997D5 /* back.wav in Resources */ = {isa = PBXBuildFile; fileRef = 305DCE7F1B179758001997D5 /* back.wav */; };
+		30EFE6A51B18D24000F7B4C7 /* gameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30EFE6A41B18D24000F7B4C7 /* gameOver.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		302B7E941B1626B100E69791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 302B7E6D1B1626B100E69791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 302B7E741B1626B100E69791;
+			remoteInfo = SurvivorAstronaut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		302B7E751B1626B100E69791 /* SurvivorAstronaut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurvivorAstronaut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		302B7E791B1626B100E69791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302B7E7A1B1626B100E69791 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		302B7E7C1B1626B100E69791 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		302B7E7D1B1626B100E69791 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		302B7E7F1B1626B100E69791 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		302B7E801B1626B100E69791 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		302B7E821B1626B100E69791 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		302B7E841B1626B100E69791 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		302B7E851B1626B100E69791 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		302B7E881B1626B100E69791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		302B7E8A1B1626B100E69791 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		302B7E8D1B1626B100E69791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		302B7E931B1626B100E69791 /* SurvivorAstronautTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurvivorAstronautTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		302B7E981B1626B100E69791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302B7E991B1626B100E69791 /* SurvivorAstronautTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SurvivorAstronautTests.m; sourceTree = "<group>"; };
+		302B7EA41B16386D00E69791 /* I-pixel-u.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I-pixel-u.ttf"; sourceTree = "<group>"; };
+		302B7EA91B16386D00E69791 /* enemyShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = enemyShader.fsh; sourceTree = "<group>"; };
+		302B7EAC1B16386D00E69791 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
+		302B7EAD1B16386D00E69791 /* score.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = score.wav; sourceTree = "<group>"; };
+		302B7EAF1B16386D00E69791 /* background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.mp4; sourceTree = "<group>"; };
+		302B7EB81B1640D700E69791 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
+		302B7EB91B1640D700E69791 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		302B7EBC1B16488E00E69791 /* AsteroidBeltNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsteroidBeltNode.h; sourceTree = "<group>"; };
+		302B7EBD1B16488E00E69791 /* AsteroidBeltNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsteroidBeltNode.m; sourceTree = "<group>"; };
+		305DCE7D1B1771F0001997D5 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		305DCE7F1B179758001997D5 /* back.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = back.wav; sourceTree = "<group>"; };
+		30EFE6A41B18D24000F7B4C7 /* gameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameOver.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		302B7E721B1626B100E69791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302B7E901B1626B100E69791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		302B7E6C1B1626B100E69791 = {
+			isa = PBXGroup;
+			children = (
+				302B7E771B1626B100E69791 /* SurvivorAstronaut */,
+				302B7E961B1626B100E69791 /* SurvivorAstronautTests */,
+				302B7E761B1626B100E69791 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		302B7E761B1626B100E69791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				302B7E751B1626B100E69791 /* SurvivorAstronaut.app */,
+				302B7E931B1626B100E69791 /* SurvivorAstronautTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		302B7E771B1626B100E69791 /* SurvivorAstronaut */ = {
+			isa = PBXGroup;
+			children = (
+				302B7EA31B16386D00E69791 /* Font */,
+				302B7EA51B16386D00E69791 /* Images */,
+				302B7EA81B16386D00E69791 /* Shaders */,
+				302B7EAA1B16386D00E69791 /* Sounds */,
+				302B7EAE1B16386D00E69791 /* Videos */,
+				302B7E7C1B1626B100E69791 /* AppDelegate.h */,
+				302B7E7D1B1626B100E69791 /* AppDelegate.m */,
+				302B7E7F1B1626B100E69791 /* GameScene.h */,
+				302B7E801B1626B100E69791 /* GameScene.m */,
+				302B7EBC1B16488E00E69791 /* AsteroidBeltNode.h */,
+				302B7EBD1B16488E00E69791 /* AsteroidBeltNode.m */,
+				302B7E821B1626B100E69791 /* GameScene.sks */,
+				302B7EB81B1640D700E69791 /* StarField.sks */,
+				302B7EB91B1640D700E69791 /* spark.png */,
+				302B7E841B1626B100E69791 /* GameViewController.h */,
+				302B7E851B1626B100E69791 /* GameViewController.m */,
+				302B7E871B1626B100E69791 /* Main.storyboard */,
+				302B7E8A1B1626B100E69791 /* Images.xcassets */,
+				302B7E8C1B1626B100E69791 /* LaunchScreen.xib */,
+				302B7E781B1626B100E69791 /* Supporting Files */,
+				305DCE7D1B1771F0001997D5 /* Fire.sks */,
+			);
+			path = SurvivorAstronaut;
+			sourceTree = "<group>";
+		};
+		302B7E781B1626B100E69791 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				302B7E791B1626B100E69791 /* Info.plist */,
+				302B7E7A1B1626B100E69791 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		302B7E961B1626B100E69791 /* SurvivorAstronautTests */ = {
+			isa = PBXGroup;
+			children = (
+				302B7E991B1626B100E69791 /* SurvivorAstronautTests.m */,
+				302B7E971B1626B100E69791 /* Supporting Files */,
+			);
+			path = SurvivorAstronautTests;
+			sourceTree = "<group>";
+		};
+		302B7E971B1626B100E69791 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				302B7E981B1626B100E69791 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		302B7EA31B16386D00E69791 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				302B7EA41B16386D00E69791 /* I-pixel-u.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		302B7EA51B16386D00E69791 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		302B7EA81B16386D00E69791 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				302B7EA91B16386D00E69791 /* enemyShader.fsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		302B7EAA1B16386D00E69791 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				30EFE6A41B18D24000F7B4C7 /* gameOver.wav */,
+				305DCE7F1B179758001997D5 /* back.wav */,
+				302B7EAC1B16386D00E69791 /* hit.wav */,
+				302B7EAD1B16386D00E69791 /* score.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		302B7EAE1B16386D00E69791 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				302B7EAF1B16386D00E69791 /* background.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		302B7E741B1626B100E69791 /* SurvivorAstronaut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302B7E9D1B1626B100E69791 /* Build configuration list for PBXNativeTarget "SurvivorAstronaut" */;
+			buildPhases = (
+				302B7E711B1626B100E69791 /* Sources */,
+				302B7E721B1626B100E69791 /* Frameworks */,
+				302B7E731B1626B100E69791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurvivorAstronaut;
+			productName = SurvivorAstronaut;
+			productReference = 302B7E751B1626B100E69791 /* SurvivorAstronaut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		302B7E921B1626B100E69791 /* SurvivorAstronautTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302B7EA01B1626B100E69791 /* Build configuration list for PBXNativeTarget "SurvivorAstronautTests" */;
+			buildPhases = (
+				302B7E8F1B1626B100E69791 /* Sources */,
+				302B7E901B1626B100E69791 /* Frameworks */,
+				302B7E911B1626B100E69791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				302B7E951B1626B100E69791 /* PBXTargetDependency */,
+			);
+			name = SurvivorAstronautTests;
+			productName = SurvivorAstronautTests;
+			productReference = 302B7E931B1626B100E69791 /* SurvivorAstronautTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		302B7E6D1B1626B100E69791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Kaique de Souza Monteiro";
+				TargetAttributes = {
+					302B7E741B1626B100E69791 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					302B7E921B1626B100E69791 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 302B7E741B1626B100E69791;
+					};
+				};
+			};
+			buildConfigurationList = 302B7E701B1626B100E69791 /* Build configuration list for PBXProject "SurvivorAstronaut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 302B7E6C1B1626B100E69791;
+			productRefGroup = 302B7E761B1626B100E69791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				302B7E741B1626B100E69791 /* SurvivorAstronaut */,
+				302B7E921B1626B100E69791 /* SurvivorAstronautTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		302B7E731B1626B100E69791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302B7EBB1B1640D700E69791 /* spark.png in Resources */,
+				302B7EB61B16386D00E69791 /* score.wav in Resources */,
+				302B7EB51B16386D00E69791 /* hit.wav in Resources */,
+				302B7EBA1B1640D700E69791 /* StarField.sks in Resources */,
+				302B7E8E1B1626B100E69791 /* LaunchScreen.xib in Resources */,
+				305DCE7E1B1771F0001997D5 /* Fire.sks in Resources */,
+				302B7E8B1B1626B100E69791 /* Images.xcassets in Resources */,
+				302B7EB31B16386D00E69791 /* enemyShader.fsh in Resources */,
+				302B7EB01B16386D00E69791 /* I-pixel-u.ttf in Resources */,
+				302B7E831B1626B100E69791 /* GameScene.sks in Resources */,
+				30EFE6A51B18D24000F7B4C7 /* gameOver.wav in Resources */,
+				302B7EB71B16386D00E69791 /* background.mp4 in Resources */,
+				302B7E891B1626B100E69791 /* Main.storyboard in Resources */,
+				305DCE801B179758001997D5 /* back.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302B7E911B1626B100E69791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		302B7E711B1626B100E69791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302B7E861B1626B100E69791 /* GameViewController.m in Sources */,
+				302B7E7E1B1626B100E69791 /* AppDelegate.m in Sources */,
+				302B7E811B1626B100E69791 /* GameScene.m in Sources */,
+				302B7EBE1B16488E00E69791 /* AsteroidBeltNode.m in Sources */,
+				302B7E7B1B1626B100E69791 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302B7E8F1B1626B100E69791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302B7E9A1B1626B100E69791 /* SurvivorAstronautTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		302B7E951B1626B100E69791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 302B7E741B1626B100E69791 /* SurvivorAstronaut */;
+			targetProxy = 302B7E941B1626B100E69791 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		302B7E871B1626B100E69791 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302B7E881B1626B100E69791 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		302B7E8C1B1626B100E69791 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302B7E8D1B1626B100E69791 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		302B7E9B1B1626B100E69791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		302B7E9C1B1626B100E69791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		302B7E9E1B1626B100E69791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SurvivorAstronaut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		302B7E9F1B1626B100E69791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SurvivorAstronaut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		302B7EA11B1626B100E69791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SurvivorAstronautTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurvivorAstronaut.app/SurvivorAstronaut";
+			};
+			name = Debug;
+		};
+		302B7EA21B1626B100E69791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SurvivorAstronautTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurvivorAstronaut.app/SurvivorAstronaut";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		302B7E701B1626B100E69791 /* Build configuration list for PBXProject "SurvivorAstronaut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302B7E9B1B1626B100E69791 /* Debug */,
+				302B7E9C1B1626B100E69791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302B7E9D1B1626B100E69791 /* Build configuration list for PBXNativeTarget "SurvivorAstronaut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302B7E9E1B1626B100E69791 /* Debug */,
+				302B7E9F1B1626B100E69791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302B7EA01B1626B100E69791 /* Build configuration list for PBXNativeTarget "SurvivorAstronautTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302B7EA11B1626B100E69791 /* Debug */,
+				302B7EA21B1626B100E69791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 302B7E6D1B1626B100E69791 /* Project object */;
+}

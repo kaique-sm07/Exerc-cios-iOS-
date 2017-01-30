@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0250BD9662960DB774FA6B6E /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5288FE78C1B25ABF0BD40985 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D94504F8BEFA212CB9E4E38 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D878EE2C750FAA1E2F41A /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4C24980CDD8B7F439A28C3AA /* Pods-MobyDickWordCount-MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7991B7D99C0AFFC95314A /* Pods-MobyDickWordCount-MBProgressHUD-dummy.m */; };
+		50E45DB7E08D2020D3820383 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B17E0E69D63F92075CE1C2 /* Foundation.framework */; };
+		87F6AFB2F0D51C015B0E68F0 /* Pods-MobyDickWordCount-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91AEF2476E1A06392D5C92BB /* Pods-MobyDickWordCount-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89E156D4A98B3824B428F4C9 /* Pods-MobyDickWordCount-MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E535029D152B2B4AE338F4C /* Pods-MobyDickWordCount-MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD9DEAC2C7D5F5F92826ACB2 /* Pods-MobyDickWordCount-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 395C1C8D9F0894A93A91F952 /* Pods-MobyDickWordCount-dummy.m */; };
+		BDE8B44DCF8C86645AE945C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B17E0E69D63F92075CE1C2 /* Foundation.framework */; };
+		D86A7392C621D5357C7707F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB72FDADF168067365D4D2E /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B754ED943F65DBACE8C80FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F90F4114AF88E7E3FEE7AB80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CCC376EB4AA32FAE618FDF1;
+			remoteInfo = "Pods-MobyDickWordCount-MBProgressHUD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AB7991B7D99C0AFFC95314A /* Pods-MobyDickWordCount-MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MobyDickWordCount-MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		1CF18D5FA0CDFAAEBA78CB33 /* Pods-MobyDickWordCount.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MobyDickWordCount.modulemap"; sourceTree = "<group>"; };
+		395C1C8D9F0894A93A91F952 /* Pods-MobyDickWordCount-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MobyDickWordCount-dummy.m"; sourceTree = "<group>"; };
+		44E17C04BEF883DD939EE287 /* Pods-MobyDickWordCount.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobyDickWordCount.debug.xcconfig"; sourceTree = "<group>"; };
+		48E41BFE02C45CFA30D12B1E /* Pods-MobyDickWordCount-MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobyDickWordCount-MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		5288FE78C1B25ABF0BD40985 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		5E535029D152B2B4AE338F4C /* Pods-MobyDickWordCount-MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobyDickWordCount-MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		6EF40C939D57AB34DC2FAD12 /* Pods-MobyDickWordCount.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobyDickWordCount.release.xcconfig"; sourceTree = "<group>"; };
+		79B17E0E69D63F92075CE1C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7FCCA5FD7BA5A0DEDD39C411 /* Pods-MobyDickWordCount-MBProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobyDickWordCount-MBProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		878DFAC15863FA5268F87DC0 /* Pods-MobyDickWordCount-MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MobyDickWordCount-MBProgressHUD.modulemap"; sourceTree = "<group>"; };
+		8A43BD7F6A7EB99D90C6C17B /* Pods-MobyDickWordCount-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobyDickWordCount-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A78E0ADE9BBC1B2D7B922CE /* Pods-MobyDickWordCount-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobyDickWordCount-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E376FA9F29840B1E15A2E22 /* Pods-MobyDickWordCount-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobyDickWordCount-resources.sh"; sourceTree = "<group>"; };
+		8ED1E79DE63BE5C5FBCB1CED /* Pods-MobyDickWordCount-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobyDickWordCount-frameworks.sh"; sourceTree = "<group>"; };
+		91AEF2476E1A06392D5C92BB /* Pods-MobyDickWordCount-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobyDickWordCount-umbrella.h"; sourceTree = "<group>"; };
+		963735313884C4FA4834A951 /* Pods-MobyDickWordCount-MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobyDickWordCount-MBProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		9B2849CB5605F84BE52F6422 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62EFBD6A7322F01E48D208B /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5A37879F40B0BCB1E2CA50 /* Pods-MobyDickWordCount-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobyDickWordCount-environment.h"; sourceTree = "<group>"; };
+		B2AAE9A9B70C8F38EC4D122E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14FE59E5471C0DF8B976F96 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DDB72FDADF168067365D4D2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		E934C045F6AC262A4E67A986 /* Pods_MobyDickWordCount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobyDickWordCount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6D878EE2C750FAA1E2F41A /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56CADAAB1897BFC52E931CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86A7392C621D5357C7707F0 /* CoreGraphics.framework in Frameworks */,
+				BDE8B44DCF8C86645AE945C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB11C4327F4F18E69E1251E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E45DB7E08D2020D3820383 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08E8CD8E1239363CB1D0398C /* Pods-MobyDickWordCount */ = {
+			isa = PBXGroup;
+			children = (
+				B2AAE9A9B70C8F38EC4D122E /* Info.plist */,
+				1CF18D5FA0CDFAAEBA78CB33 /* Pods-MobyDickWordCount.modulemap */,
+				8A78E0ADE9BBC1B2D7B922CE /* Pods-MobyDickWordCount-acknowledgements.markdown */,
+				8A43BD7F6A7EB99D90C6C17B /* Pods-MobyDickWordCount-acknowledgements.plist */,
+				395C1C8D9F0894A93A91F952 /* Pods-MobyDickWordCount-dummy.m */,
+				AF5A37879F40B0BCB1E2CA50 /* Pods-MobyDickWordCount-environment.h */,
+				8ED1E79DE63BE5C5FBCB1CED /* Pods-MobyDickWordCount-frameworks.sh */,
+				8E376FA9F29840B1E15A2E22 /* Pods-MobyDickWordCount-resources.sh */,
+				91AEF2476E1A06392D5C92BB /* Pods-MobyDickWordCount-umbrella.h */,
+				44E17C04BEF883DD939EE287 /* Pods-MobyDickWordCount.debug.xcconfig */,
+				6EF40C939D57AB34DC2FAD12 /* Pods-MobyDickWordCount.release.xcconfig */,
+			);
+			name = "Pods-MobyDickWordCount";
+			path = "Target Support Files/Pods-MobyDickWordCount";
+			sourceTree = "<group>";
+		};
+		3D8EBE0386C8205B50600B2C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DDB72FDADF168067365D4D2E /* CoreGraphics.framework */,
+				79B17E0E69D63F92075CE1C2 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D68517CBA9934154EC48196 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B2849CB5605F84BE52F6422 /* Info.plist */,
+				878DFAC15863FA5268F87DC0 /* Pods-MobyDickWordCount-MBProgressHUD.modulemap */,
+				963735313884C4FA4834A951 /* Pods-MobyDickWordCount-MBProgressHUD.xcconfig */,
+				7FCCA5FD7BA5A0DEDD39C411 /* Pods-MobyDickWordCount-MBProgressHUD-Private.xcconfig */,
+				1AB7991B7D99C0AFFC95314A /* Pods-MobyDickWordCount-MBProgressHUD-dummy.m */,
+				48E41BFE02C45CFA30D12B1E /* Pods-MobyDickWordCount-MBProgressHUD-prefix.pch */,
+				5E535029D152B2B4AE338F4C /* Pods-MobyDickWordCount-MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MobyDickWordCount-MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		9FACD20325C24553F07AFF9F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08E8CD8E1239363CB1D0398C /* Pods-MobyDickWordCount */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A637F1BB7D52191EB9363296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D8EBE0386C8205B50600B2C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAF4DC7BF082596F2426FACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A62EFBD6A7322F01E48D208B /* MBProgressHUD.framework */,
+				E934C045F6AC262A4E67A986 /* Pods_MobyDickWordCount.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E8E6319C7AB0AEEFE16744 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA6F4D7ACAD3A287108877CA /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA6F4D7ACAD3A287108877CA /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				5288FE78C1B25ABF0BD40985 /* MBProgressHUD.h */,
+				FD6D878EE2C750FAA1E2F41A /* MBProgressHUD.m */,
+				5D68517CBA9934154EC48196 /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		FF13942B6FE9FC48DD40D935 = {
+			isa = PBXGroup;
+			children = (
+				D14FE59E5471C0DF8B976F96 /* Podfile */,
+				A637F1BB7D52191EB9363296 /* Frameworks */,
+				D0E8E6319C7AB0AEEFE16744 /* Pods */,
+				AAF4DC7BF082596F2426FACA /* Products */,
+				9FACD20325C24553F07AFF9F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F12B6613925CBD4CA75EBFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F6AFB2F0D51C015B0E68F0 /* Pods-MobyDickWordCount-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5E7EE8E1DCCDE9D2A69751 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0250BD9662960DB774FA6B6E /* MBProgressHUD.h in Headers */,
+				89E156D4A98B3824B428F4C9 /* Pods-MobyDickWordCount-MBProgressHUD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1CCC376EB4AA32FAE618FDF1 /* Pods-MobyDickWordCount-MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4F99B118BC370FC68D4986C /* Build configuration list for PBXNativeTarget "Pods-MobyDickWordCount-MBProgressHUD" */;
+			buildPhases = (
+				A7EF7D7B34C9E3E96B6865BA /* Sources */,
+				56CADAAB1897BFC52E931CD1 /* Frameworks */,
+				AC5E7EE8E1DCCDE9D2A69751 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MobyDickWordCount-MBProgressHUD";
+			productName = "Pods-MobyDickWordCount-MBProgressHUD";
+			productReference = A62EFBD6A7322F01E48D208B /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		256159C9697BD8DEB74280D7 /* Pods-MobyDickWordCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3444C86EF95C81668308F72D /* Build configuration list for PBXNativeTarget "Pods-MobyDickWordCount" */;
+			buildPhases = (
+				2D4C668FF263031A3B939286 /* Sources */,
+				ADB11C4327F4F18E69E1251E /* Frameworks */,
+				3F12B6613925CBD4CA75EBFB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60F6287989043B7C460B02F /* PBXTargetDependency */,
+			);
+			name = "Pods-MobyDickWordCount";
+			productName = "Pods-MobyDickWordCount";
+			productReference = E934C045F6AC262A4E67A986 /* Pods_MobyDickWordCount.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F90F4114AF88E7E3FEE7AB80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 17687EC205EDFB95446FCE82 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF13942B6FE9FC48DD40D935;
+			productRefGroup = AAF4DC7BF082596F2426FACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				256159C9697BD8DEB74280D7 /* Pods-MobyDickWordCount */,
+				1CCC376EB4AA32FAE618FDF1 /* Pods-MobyDickWordCount-MBProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D4C668FF263031A3B939286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9DEAC2C7D5F5F92826ACB2 /* Pods-MobyDickWordCount-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EF7D7B34C9E3E96B6865BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D94504F8BEFA212CB9E4E38 /* MBProgressHUD.m in Sources */,
+				4C24980CDD8B7F439A28C3AA /* Pods-MobyDickWordCount-MBProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D60F6287989043B7C460B02F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MobyDickWordCount-MBProgressHUD";
+			target = 1CCC376EB4AA32FAE618FDF1 /* Pods-MobyDickWordCount-MBProgressHUD */;
+			targetProxy = 5B754ED943F65DBACE8C80FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E95F5F86FC55658CC295E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		712CB5C6F30DBEEA2CD875CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E17C04BEF883DD939EE287 /* Pods-MobyDickWordCount.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MobyDickWordCount/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MobyDickWordCount/Pods-MobyDickWordCount.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MobyDickWordCount;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91A8EEA677044062E077AB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF40C939D57AB34DC2FAD12 /* Pods-MobyDickWordCount.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MobyDickWordCount/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MobyDickWordCount/Pods-MobyDickWordCount.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MobyDickWordCount;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B558F53ED6329AA2CDA2792B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C030ED7629FCC75AD0291BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCCA5FD7BA5A0DEDD39C411 /* Pods-MobyDickWordCount-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MobyDickWordCount-MBProgressHUD/Pods-MobyDickWordCount-MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobyDickWordCount-MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MobyDickWordCount-MBProgressHUD/Pods-MobyDickWordCount-MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC88A101878933402CC9DA87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCCA5FD7BA5A0DEDD39C411 /* Pods-MobyDickWordCount-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MobyDickWordCount-MBProgressHUD/Pods-MobyDickWordCount-MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobyDickWordCount-MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MobyDickWordCount-MBProgressHUD/Pods-MobyDickWordCount-MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17687EC205EDFB95446FCE82 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B558F53ED6329AA2CDA2792B /* Debug */,
+				2E95F5F86FC55658CC295E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3444C86EF95C81668308F72D /* Build configuration list for PBXNativeTarget "Pods-MobyDickWordCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712CB5C6F30DBEEA2CD875CF /* Debug */,
+				91A8EEA677044062E077AB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4F99B118BC370FC68D4986C /* Build configuration list for PBXNativeTarget "Pods-MobyDickWordCount-MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC88A101878933402CC9DA87 /* Debug */,
+				C030ED7629FCC75AD0291BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F90F4114AF88E7E3FEE7AB80 /* Project object */;
+}

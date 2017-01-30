@@ -1,0 +1,6 @@
+framework module Pods_MobyDickWordCount {
+  umbrella header "Pods-MobyDickWordCount-umbrella.h"
+
+  export *
+  module * { export * }
+}

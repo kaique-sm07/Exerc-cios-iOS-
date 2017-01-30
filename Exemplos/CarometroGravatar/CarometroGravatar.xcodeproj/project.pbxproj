@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30FBC6E81B7BC7D400BABBB5 /* GravatarRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FBC6E71B7BC7D400BABBB5 /* GravatarRequest.swift */; };
+		3BEC0B748172696B63177939 /* Pods_CarometroGravatar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C847676D14D52780BEF641 /* Pods_CarometroGravatar.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		933EC5D81B7A3D7000DF949D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933EC5D71B7A3D7000DF949D /* AppDelegate.swift */; };
+		933EC5DD1B7A3D7000DF949D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933EC5DB1B7A3D7000DF949D /* Main.storyboard */; };
+		933EC5DF1B7A3D7000DF949D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933EC5DE1B7A3D7000DF949D /* Images.xcassets */; };
+		933EC5E21B7A3D7000DF949D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933EC5E01B7A3D7000DF949D /* LaunchScreen.xib */; };
+		933EC5EE1B7A3D7000DF949D /* CarometroGravatarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933EC5ED1B7A3D7000DF949D /* CarometroGravatarTests.swift */; };
+		933EC5F81B7A3DD200DF949D /* CarometroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933EC5F71B7A3DD200DF949D /* CarometroTableViewController.swift */; };
+		933EC5FA1B7A3E3100DF949D /* EmailCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933EC5F91B7A3E3100DF949D /* EmailCollection.swift */; };
+		9362C48C1B7AD754003CECF6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9362C48B1B7AD754003CECF6 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		933EC5E81B7A3D7000DF949D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 933EC5CA1B7A3D7000DF949D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 933EC5D11B7A3D7000DF949D;
+			remoteInfo = CarometroGravatar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2679EBAC10CC397DCDF0AAAB /* Pods-CarometroGravatar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarometroGravatar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarometroGravatar/Pods-CarometroGravatar.debug.xcconfig"; sourceTree = "<group>"; };
+		30FBC6E71B7BC7D400BABBB5 /* GravatarRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GravatarRequest.swift; sourceTree = "<group>"; };
+		60643533392DAD8354CCF76A /* Pods-CarometroGravatar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarometroGravatar.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarometroGravatar/Pods-CarometroGravatar.release.xcconfig"; sourceTree = "<group>"; };
+		67C847676D14D52780BEF641 /* Pods_CarometroGravatar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarometroGravatar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933EC5D21B7A3D7000DF949D /* CarometroGravatar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarometroGravatar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		933EC5D61B7A3D7000DF949D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933EC5D71B7A3D7000DF949D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		933EC5DC1B7A3D7000DF949D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		933EC5DE1B7A3D7000DF949D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		933EC5E11B7A3D7000DF949D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		933EC5E71B7A3D7000DF949D /* CarometroGravatarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarometroGravatarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		933EC5EC1B7A3D7000DF949D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933EC5ED1B7A3D7000DF949D /* CarometroGravatarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarometroGravatarTests.swift; sourceTree = "<group>"; };
+		933EC5F71B7A3DD200DF949D /* CarometroTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarometroTableViewController.swift; sourceTree = "<group>"; };
+		933EC5F91B7A3E3100DF949D /* EmailCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailCollection.swift; sourceTree = "<group>"; };
+		9362C48B1B7AD754003CECF6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		93C0DA671B7ADC7700433180 /* CarometroGravatar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarometroGravatar-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		933EC5CF1B7A3D7000DF949D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEC0B748172696B63177939 /* Pods_CarometroGravatar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933EC5E41B7A3D7000DF949D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EBEAE83DD2FB8B62F4D06FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67C847676D14D52780BEF641 /* Pods_CarometroGravatar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		933EC5C91B7A3D7000DF949D = {
+			isa = PBXGroup;
+			children = (
+				933EC5D41B7A3D7000DF949D /* CarometroGravatar */,
+				933EC5EA1B7A3D7000DF949D /* CarometroGravatarTests */,
+				933EC5D31B7A3D7000DF949D /* Products */,
+				F5C68EB5652036C18AFFB78E /* Pods */,
+				5EBEAE83DD2FB8B62F4D06FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		933EC5D31B7A3D7000DF949D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				933EC5D21B7A3D7000DF949D /* CarometroGravatar.app */,
+				933EC5E71B7A3D7000DF949D /* CarometroGravatarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		933EC5D41B7A3D7000DF949D /* CarometroGravatar */ = {
+			isa = PBXGroup;
+			children = (
+				933EC5D71B7A3D7000DF949D /* AppDelegate.swift */,
+				9362C48B1B7AD754003CECF6 /* DetailViewController.swift */,
+				933EC5F71B7A3DD200DF949D /* CarometroTableViewController.swift */,
+				933EC5F91B7A3E3100DF949D /* EmailCollection.swift */,
+				933EC5DB1B7A3D7000DF949D /* Main.storyboard */,
+				933EC5DE1B7A3D7000DF949D /* Images.xcassets */,
+				933EC5E01B7A3D7000DF949D /* LaunchScreen.xib */,
+				933EC5D51B7A3D7000DF949D /* Supporting Files */,
+				93C0DA671B7ADC7700433180 /* CarometroGravatar-Bridging-Header.h */,
+				30FBC6E71B7BC7D400BABBB5 /* GravatarRequest.swift */,
+			);
+			path = CarometroGravatar;
+			sourceTree = "<group>";
+		};
+		933EC5D51B7A3D7000DF949D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				933EC5D61B7A3D7000DF949D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		933EC5EA1B7A3D7000DF949D /* CarometroGravatarTests */ = {
+			isa = PBXGroup;
+			children = (
+				933EC5ED1B7A3D7000DF949D /* CarometroGravatarTests.swift */,
+				933EC5EB1B7A3D7000DF949D /* Supporting Files */,
+			);
+			path = CarometroGravatarTests;
+			sourceTree = "<group>";
+		};
+		933EC5EB1B7A3D7000DF949D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				933EC5EC1B7A3D7000DF949D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5C68EB5652036C18AFFB78E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2679EBAC10CC397DCDF0AAAB /* Pods-CarometroGravatar.debug.xcconfig */,
+				60643533392DAD8354CCF76A /* Pods-CarometroGravatar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		933EC5D11B7A3D7000DF949D /* CarometroGravatar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933EC5F11B7A3D7000DF949D /* Build configuration list for PBXNativeTarget "CarometroGravatar" */;
+			buildPhases = (
+				C5D9C8079C01EFA1158685A3 /* Check Pods Manifest.lock */,
+				933EC5CE1B7A3D7000DF949D /* Sources */,
+				933EC5CF1B7A3D7000DF949D /* Frameworks */,
+				933EC5D01B7A3D7000DF949D /* Resources */,
+				753F763F05D4E485FDBC8EFB /* Embed Pods Frameworks */,
+				077F6422061CA8AF998627F1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarometroGravatar;
+			productName = CarometroGravatar;
+			productReference = 933EC5D21B7A3D7000DF949D /* CarometroGravatar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		933EC5E61B7A3D7000DF949D /* CarometroGravatarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933EC5F41B7A3D7000DF949D /* Build configuration list for PBXNativeTarget "CarometroGravatarTests" */;
+			buildPhases = (
+				933EC5E31B7A3D7000DF949D /* Sources */,
+				933EC5E41B7A3D7000DF949D /* Frameworks */,
+				933EC5E51B7A3D7000DF949D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				933EC5E91B7A3D7000DF949D /* PBXTargetDependency */,
+			);
+			name = CarometroGravatarTests;
+			productName = CarometroGravatarTests;
+			productReference = 933EC5E71B7A3D7000DF949D /* CarometroGravatarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		933EC5CA1B7A3D7000DF949D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Augusto;
+				TargetAttributes = {
+					933EC5D11B7A3D7000DF949D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					933EC5E61B7A3D7000DF949D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 933EC5D11B7A3D7000DF949D;
+					};
+				};
+			};
+			buildConfigurationList = 933EC5CD1B7A3D7000DF949D /* Build configuration list for PBXProject "CarometroGravatar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 933EC5C91B7A3D7000DF949D;
+			productRefGroup = 933EC5D31B7A3D7000DF949D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				933EC5D11B7A3D7000DF949D /* CarometroGravatar */,
+				933EC5E61B7A3D7000DF949D /* CarometroGravatarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		933EC5D01B7A3D7000DF949D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933EC5DD1B7A3D7000DF949D /* Main.storyboard in Resources */,
+				933EC5E21B7A3D7000DF949D /* LaunchScreen.xib in Resources */,
+				933EC5DF1B7A3D7000DF949D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933EC5E51B7A3D7000DF949D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		077F6422061CA8AF998627F1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarometroGravatar/Pods-CarometroGravatar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		753F763F05D4E485FDBC8EFB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarometroGravatar/Pods-CarometroGravatar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D9C8079C01EFA1158685A3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		933EC5CE1B7A3D7000DF949D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FBC6E81B7BC7D400BABBB5 /* GravatarRequest.swift in Sources */,
+				933EC5F81B7A3DD200DF949D /* CarometroTableViewController.swift in Sources */,
+				9362C48C1B7AD754003CECF6 /* DetailViewController.swift in Sources */,
+				933EC5FA1B7A3E3100DF949D /* EmailCollection.swift in Sources */,
+				933EC5D81B7A3D7000DF949D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933EC5E31B7A3D7000DF949D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933EC5EE1B7A3D7000DF949D /* CarometroGravatarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		933EC5E91B7A3D7000DF949D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 933EC5D11B7A3D7000DF949D /* CarometroGravatar */;
+			targetProxy = 933EC5E81B7A3D7000DF949D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		933EC5DB1B7A3D7000DF949D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				933EC5DC1B7A3D7000DF949D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		933EC5E01B7A3D7000DF949D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				933EC5E11B7A3D7000DF949D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		933EC5EF1B7A3D7000DF949D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		933EC5F01B7A3D7000DF949D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		933EC5F21B7A3D7000DF949D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2679EBAC10CC397DCDF0AAAB /* Pods-CarometroGravatar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CarometroGravatar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarometroGravatar/CarometroGravatar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		933EC5F31B7A3D7000DF949D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60643533392DAD8354CCF76A /* Pods-CarometroGravatar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CarometroGravatar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarometroGravatar/CarometroGravatar-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		933EC5F51B7A3D7000DF949D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarometroGravatarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarometroGravatar.app/CarometroGravatar";
+			};
+			name = Debug;
+		};
+		933EC5F61B7A3D7000DF949D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarometroGravatarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarometroGravatar.app/CarometroGravatar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		933EC5CD1B7A3D7000DF949D /* Build configuration list for PBXProject "CarometroGravatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933EC5EF1B7A3D7000DF949D /* Debug */,
+				933EC5F01B7A3D7000DF949D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		933EC5F11B7A3D7000DF949D /* Build configuration list for PBXNativeTarget "CarometroGravatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933EC5F21B7A3D7000DF949D /* Debug */,
+				933EC5F31B7A3D7000DF949D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		933EC5F41B7A3D7000DF949D /* Build configuration list for PBXNativeTarget "CarometroGravatarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933EC5F51B7A3D7000DF949D /* Debug */,
+				933EC5F61B7A3D7000DF949D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 933EC5CA1B7A3D7000DF949D /* Project object */;
+}

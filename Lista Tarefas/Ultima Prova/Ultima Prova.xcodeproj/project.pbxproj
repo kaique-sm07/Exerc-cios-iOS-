@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306652CF1AB9F2CE007AECB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 306652CE1AB9F2CE007AECB0 /* main.m */; };
+		306652D21AB9F2CE007AECB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 306652D11AB9F2CE007AECB0 /* AppDelegate.m */; };
+		306652D51AB9F2CE007AECB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306652D41AB9F2CE007AECB0 /* ViewController.m */; };
+		306652D81AB9F2CE007AECB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306652D61AB9F2CE007AECB0 /* Main.storyboard */; };
+		306652DA1AB9F2CE007AECB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306652D91AB9F2CE007AECB0 /* Images.xcassets */; };
+		306652DD1AB9F2CF007AECB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306652DB1AB9F2CE007AECB0 /* LaunchScreen.xib */; };
+		306652E91AB9F2CF007AECB0 /* Ultima_ProvaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 306652E81AB9F2CF007AECB0 /* Ultima_ProvaTests.m */; };
+		307322C21ABC90DE00F09F52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306652D91AB9F2CE007AECB0 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		306652E31AB9F2CF007AECB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306652C11AB9F2CE007AECB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306652C81AB9F2CE007AECB0;
+			remoteInfo = "Ultima Prova";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		306652C91AB9F2CE007AECB0 /* Ultima Prova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ultima Prova.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		306652CD1AB9F2CE007AECB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306652CE1AB9F2CE007AECB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		306652D01AB9F2CE007AECB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		306652D11AB9F2CE007AECB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		306652D31AB9F2CE007AECB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		306652D41AB9F2CE007AECB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		306652D71AB9F2CE007AECB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		306652D91AB9F2CE007AECB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		306652DC1AB9F2CF007AECB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		306652E21AB9F2CF007AECB0 /* Ultima ProvaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ultima ProvaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		306652E71AB9F2CF007AECB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306652E81AB9F2CF007AECB0 /* Ultima_ProvaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ultima_ProvaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		306652C61AB9F2CE007AECB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306652DF1AB9F2CF007AECB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306652C01AB9F2CE007AECB0 = {
+			isa = PBXGroup;
+			children = (
+				306652CB1AB9F2CE007AECB0 /* Ultima Prova */,
+				306652E51AB9F2CF007AECB0 /* Ultima ProvaTests */,
+				306652CA1AB9F2CE007AECB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		306652CA1AB9F2CE007AECB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				306652C91AB9F2CE007AECB0 /* Ultima Prova.app */,
+				306652E21AB9F2CF007AECB0 /* Ultima ProvaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		306652CB1AB9F2CE007AECB0 /* Ultima Prova */ = {
+			isa = PBXGroup;
+			children = (
+				306652D01AB9F2CE007AECB0 /* AppDelegate.h */,
+				306652D11AB9F2CE007AECB0 /* AppDelegate.m */,
+				306652D31AB9F2CE007AECB0 /* ViewController.h */,
+				306652D41AB9F2CE007AECB0 /* ViewController.m */,
+				306652D61AB9F2CE007AECB0 /* Main.storyboard */,
+				306652D91AB9F2CE007AECB0 /* Images.xcassets */,
+				306652DB1AB9F2CE007AECB0 /* LaunchScreen.xib */,
+				306652CC1AB9F2CE007AECB0 /* Supporting Files */,
+			);
+			path = "Ultima Prova";
+			sourceTree = "<group>";
+		};
+		306652CC1AB9F2CE007AECB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				306652CD1AB9F2CE007AECB0 /* Info.plist */,
+				306652CE1AB9F2CE007AECB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		306652E51AB9F2CF007AECB0 /* Ultima ProvaTests */ = {
+			isa = PBXGroup;
+			children = (
+				306652E81AB9F2CF007AECB0 /* Ultima_ProvaTests.m */,
+				306652E61AB9F2CF007AECB0 /* Supporting Files */,
+			);
+			path = "Ultima ProvaTests";
+			sourceTree = "<group>";
+		};
+		306652E61AB9F2CF007AECB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				306652E71AB9F2CF007AECB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		306652C81AB9F2CE007AECB0 /* Ultima Prova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306652EC1AB9F2CF007AECB0 /* Build configuration list for PBXNativeTarget "Ultima Prova" */;
+			buildPhases = (
+				306652C51AB9F2CE007AECB0 /* Sources */,
+				306652C61AB9F2CE007AECB0 /* Frameworks */,
+				306652C71AB9F2CE007AECB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ultima Prova";
+			productName = "Ultima Prova";
+			productReference = 306652C91AB9F2CE007AECB0 /* Ultima Prova.app */;
+			productType = "com.apple.product-type.application";
+		};
+		306652E11AB9F2CF007AECB0 /* Ultima ProvaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306652EF1AB9F2CF007AECB0 /* Build configuration list for PBXNativeTarget "Ultima ProvaTests" */;
+			buildPhases = (
+				306652DE1AB9F2CF007AECB0 /* Sources */,
+				306652DF1AB9F2CF007AECB0 /* Frameworks */,
+				306652E01AB9F2CF007AECB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306652E41AB9F2CF007AECB0 /* PBXTargetDependency */,
+			);
+			name = "Ultima ProvaTests";
+			productName = "Ultima ProvaTests";
+			productReference = 306652E21AB9F2CF007AECB0 /* Ultima ProvaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		306652C11AB9F2CE007AECB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Kaique de Souza Monteiro";
+				TargetAttributes = {
+					306652C81AB9F2CE007AECB0 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 59TJGNH243;
+					};
+					306652E11AB9F2CF007AECB0 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 306652C81AB9F2CE007AECB0;
+					};
+				};
+			};
+			buildConfigurationList = 306652C41AB9F2CE007AECB0 /* Build configuration list for PBXProject "Ultima Prova" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 306652C01AB9F2CE007AECB0;
+			productRefGroup = 306652CA1AB9F2CE007AECB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				306652C81AB9F2CE007AECB0 /* Ultima Prova */,
+				306652E11AB9F2CF007AECB0 /* Ultima ProvaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		306652C71AB9F2CE007AECB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306652D81AB9F2CE007AECB0 /* Main.storyboard in Resources */,
+				306652DD1AB9F2CF007AECB0 /* LaunchScreen.xib in Resources */,
+				306652DA1AB9F2CE007AECB0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306652E01AB9F2CF007AECB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307322C21ABC90DE00F09F52 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		306652C51AB9F2CE007AECB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306652D51AB9F2CE007AECB0 /* ViewController.m in Sources */,
+				306652D21AB9F2CE007AECB0 /* AppDelegate.m in Sources */,
+				306652CF1AB9F2CE007AECB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306652DE1AB9F2CF007AECB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306652E91AB9F2CF007AECB0 /* Ultima_ProvaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		306652E41AB9F2CF007AECB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306652C81AB9F2CE007AECB0 /* Ultima Prova */;
+			targetProxy = 306652E31AB9F2CF007AECB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		306652D61AB9F2CE007AECB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306652D71AB9F2CE007AECB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		306652DB1AB9F2CE007AECB0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306652DC1AB9F2CF007AECB0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		306652EA1AB9F2CF007AECB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		306652EB1AB9F2CF007AECB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		306652ED1AB9F2CF007AECB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Ultima Prova/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		306652EE1AB9F2CF007AECB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Ultima Prova/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		306652F01AB9F2CF007AECB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ultima ProvaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ultima Prova.app/Ultima Prova";
+			};
+			name = Debug;
+		};
+		306652F11AB9F2CF007AECB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ultima ProvaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ultima Prova.app/Ultima Prova";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		306652C41AB9F2CE007AECB0 /* Build configuration list for PBXProject "Ultima Prova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306652EA1AB9F2CF007AECB0 /* Debug */,
+				306652EB1AB9F2CF007AECB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306652EC1AB9F2CF007AECB0 /* Build configuration list for PBXNativeTarget "Ultima Prova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306652ED1AB9F2CF007AECB0 /* Debug */,
+				306652EE1AB9F2CF007AECB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306652EF1AB9F2CF007AECB0 /* Build configuration list for PBXNativeTarget "Ultima ProvaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306652F01AB9F2CF007AECB0 /* Debug */,
+				306652F11AB9F2CF007AECB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 306652C11AB9F2CE007AECB0 /* Project object */;
+}

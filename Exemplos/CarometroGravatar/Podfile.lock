@@ -1,0 +1,13 @@
+PODS:
+  - CryptoSwift (0.0.12)
+  - MBProgressHUD (0.9.1)
+
+DEPENDENCIES:
+  - CryptoSwift
+  - MBProgressHUD (~> 0.9.1)
+
+SPEC CHECKSUMS:
+  CryptoSwift: 16f1b5a768057636275b76d1c43231c2abba9e80
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+
+COCOAPODS: 0.37.2

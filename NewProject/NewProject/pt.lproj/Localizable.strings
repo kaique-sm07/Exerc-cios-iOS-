@@ -1,0 +1,9 @@
+/* date string for today */
+"Today is %@" = "Hoje é dia %@";
+
+/* value string */
+"Value: %@" = "Valor %@";
+
+/* name of the flag image on xcassets */
+"usFlag" = "brFlag";
+

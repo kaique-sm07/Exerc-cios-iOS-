@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C7ACD7C30A99732F4F9E9E0 /* Pods_PocPinterest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BD7AB4161707773FA02D1E /* Pods_PocPinterest.framework */; };
+		301421281D09CBEC00CAF2D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301421211D09CBEC00CAF2D4 /* AppDelegate.swift */; };
+		301421291D09CBEC00CAF2D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301421221D09CBEC00CAF2D4 /* Assets.xcassets */; };
+		3014212A1D09CBEC00CAF2D4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301421231D09CBEC00CAF2D4 /* FirstViewController.swift */; };
+		3014212B1D09CBEC00CAF2D4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 301421241D09CBEC00CAF2D4 /* Info.plist */; };
+		3014212C1D09CBEC00CAF2D4 /* Inspirations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301421251D09CBEC00CAF2D4 /* Inspirations.storyboard */; };
+		3014212D1D09CBEC00CAF2D4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301421261D09CBEC00CAF2D4 /* SecondViewController.swift */; };
+		3014212E1D09CBEC00CAF2D4 /* Tutoriais.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301421271D09CBEC00CAF2D4 /* Tutoriais.storyboard */; };
+		301421311D09CC0800CAF2D4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3014212F1D09CC0800CAF2D4 /* Info.plist */; };
+		301421321D09CC0800CAF2D4 /* PocPinterestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301421301D09CC0800CAF2D4 /* PocPinterestTests.swift */; };
+		301421351D09CC1900CAF2D4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 301421331D09CC1900CAF2D4 /* Info.plist */; };
+		301421361D09CC1900CAF2D4 /* PocPinterestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301421341D09CC1900CAF2D4 /* PocPinterestUITests.swift */; };
+		3074A3D01D01F456005D5A69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3074A3CE1D01F456005D5A69 /* Main.storyboard */; };
+		9AC0F9E9A591A4EBFEB93AA6 /* Pods_PocPinterestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1D3B95B6E00B446FED4527 /* Pods_PocPinterestTests.framework */; };
+		C8B7B884B0E018EDFC02FD25 /* Pods_PocPinterestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6495F378A7DBC17ACFBDFC96 /* Pods_PocPinterestUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3074A3D91D01F456005D5A69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3074A3BD1D01F456005D5A69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3074A3C41D01F456005D5A69;
+			remoteInfo = PocPinterest;
+		};
+		3074A3E41D01F456005D5A69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3074A3BD1D01F456005D5A69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3074A3C41D01F456005D5A69;
+			remoteInfo = PocPinterest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B1D3B95B6E00B446FED4527 /* Pods_PocPinterestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocPinterestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		301421211D09CBEC00CAF2D4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MakeUpApp/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		301421221D09CBEC00CAF2D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MakeUpApp/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		301421231D09CBEC00CAF2D4 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = MakeUpApp/FirstViewController.swift; sourceTree = SOURCE_ROOT; };
+		301421241D09CBEC00CAF2D4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MakeUpApp/Info.plist; sourceTree = SOURCE_ROOT; };
+		301421251D09CBEC00CAF2D4 /* Inspirations.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Inspirations.storyboard; path = MakeUpApp/Inspirations.storyboard; sourceTree = SOURCE_ROOT; };
+		301421261D09CBEC00CAF2D4 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = MakeUpApp/SecondViewController.swift; sourceTree = SOURCE_ROOT; };
+		301421271D09CBEC00CAF2D4 /* Tutoriais.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Tutoriais.storyboard; path = MakeUpApp/Tutoriais.storyboard; sourceTree = SOURCE_ROOT; };
+		3014212F1D09CC0800CAF2D4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MakeUpAppTests/Info.plist; sourceTree = SOURCE_ROOT; };
+		301421301D09CC0800CAF2D4 /* PocPinterestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PocPinterestTests.swift; path = MakeUpAppTests/PocPinterestTests.swift; sourceTree = SOURCE_ROOT; };
+		301421331D09CC1900CAF2D4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MakeUpAppUITests/Info.plist; sourceTree = SOURCE_ROOT; };
+		301421341D09CC1900CAF2D4 /* PocPinterestUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PocPinterestUITests.swift; path = MakeUpAppUITests/PocPinterestUITests.swift; sourceTree = SOURCE_ROOT; };
+		3074A3C51D01F456005D5A69 /* MakeUpApp.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeUpApp.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3074A3CF1D01F456005D5A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3074A3D81D01F456005D5A69 /* MakeUpApp.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeUpApp.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3074A3E31D01F456005D5A69 /* MakeUpApp.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeUpApp.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BD7AB4161707773FA02D1E /* Pods_PocPinterest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocPinterest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39FC3241E2CF2FFCA9D85BF3 /* Pods-PocPinterestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocPinterestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocPinterestTests/Pods-PocPinterestTests.release.xcconfig"; sourceTree = "<group>"; };
+		6495F378A7DBC17ACFBDFC96 /* Pods_PocPinterestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocPinterestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DC0EB5FD8043AE565BE37B /* Pods-PocPinterest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocPinterest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocPinterest/Pods-PocPinterest.release.xcconfig"; sourceTree = "<group>"; };
+		951824CC3B45B1161782E385 /* Pods-PocPinterestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocPinterestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PocPinterestTests/Pods-PocPinterestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A26846F475FDEDDE9F882433 /* Pods-PocPinterest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocPinterest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PocPinterest/Pods-PocPinterest.debug.xcconfig"; sourceTree = "<group>"; };
+		C8A70D2D94DA8119E72D4601 /* Pods-PocPinterestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocPinterestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocPinterestUITests/Pods-PocPinterestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5D459B74B0928AC9A84A0D6 /* Pods-PocPinterestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocPinterestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PocPinterestUITests/Pods-PocPinterestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3074A3C21D01F456005D5A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7ACD7C30A99732F4F9E9E0 /* Pods_PocPinterest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3074A3D51D01F456005D5A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC0F9E9A591A4EBFEB93AA6 /* Pods_PocPinterestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3074A3E01D01F456005D5A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B7B884B0E018EDFC02FD25 /* Pods_PocPinterestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264BCB877CDDCDC3F771D4DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39BD7AB4161707773FA02D1E /* Pods_PocPinterest.framework */,
+				2B1D3B95B6E00B446FED4527 /* Pods_PocPinterestTests.framework */,
+				6495F378A7DBC17ACFBDFC96 /* Pods_PocPinterestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3074A3BC1D01F456005D5A69 = {
+			isa = PBXGroup;
+			children = (
+				3074A3C71D01F456005D5A69 /* MakeUpApp */,
+				3074A3DB1D01F456005D5A69 /* MakeUpAppTests */,
+				3074A3E61D01F456005D5A69 /* MakeUpAppUITests */,
+				3074A3C61D01F456005D5A69 /* Products */,
+				D6286CF25D417176D52FCE9C /* Pods */,
+				264BCB877CDDCDC3F771D4DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3074A3C61D01F456005D5A69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3074A3C51D01F456005D5A69 /* MakeUpApp.temp_caseinsensitive_rename.app */,
+				3074A3D81D01F456005D5A69 /* MakeUpApp.temp_caseinsensitive_rename.xctest */,
+				3074A3E31D01F456005D5A69 /* MakeUpApp.temp_caseinsensitive_rename.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3074A3C71D01F456005D5A69 /* MakeUpApp */ = {
+			isa = PBXGroup;
+			children = (
+				301421211D09CBEC00CAF2D4 /* AppDelegate.swift */,
+				301421221D09CBEC00CAF2D4 /* Assets.xcassets */,
+				301421231D09CBEC00CAF2D4 /* FirstViewController.swift */,
+				301421241D09CBEC00CAF2D4 /* Info.plist */,
+				301421251D09CBEC00CAF2D4 /* Inspirations.storyboard */,
+				301421261D09CBEC00CAF2D4 /* SecondViewController.swift */,
+				301421271D09CBEC00CAF2D4 /* Tutoriais.storyboard */,
+				3074A3CE1D01F456005D5A69 /* Main.storyboard */,
+			);
+			name = MakeUpApp;
+			path = PocPinterest;
+			sourceTree = "<group>";
+		};
+		3074A3DB1D01F456005D5A69 /* MakeUpAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3014212F1D09CC0800CAF2D4 /* Info.plist */,
+				301421301D09CC0800CAF2D4 /* PocPinterestTests.swift */,
+			);
+			name = MakeUpAppTests;
+			path = PocPinterestTests;
+			sourceTree = "<group>";
+		};
+		3074A3E61D01F456005D5A69 /* MakeUpAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				301421331D09CC1900CAF2D4 /* Info.plist */,
+				301421341D09CC1900CAF2D4 /* PocPinterestUITests.swift */,
+			);
+			name = MakeUpAppUITests;
+			path = PocPinterestUITests;
+			sourceTree = "<group>";
+		};
+		D6286CF25D417176D52FCE9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A26846F475FDEDDE9F882433 /* Pods-PocPinterest.debug.xcconfig */,
+				81DC0EB5FD8043AE565BE37B /* Pods-PocPinterest.release.xcconfig */,
+				951824CC3B45B1161782E385 /* Pods-PocPinterestTests.debug.xcconfig */,
+				39FC3241E2CF2FFCA9D85BF3 /* Pods-PocPinterestTests.release.xcconfig */,
+				F5D459B74B0928AC9A84A0D6 /* Pods-PocPinterestUITests.debug.xcconfig */,
+				C8A70D2D94DA8119E72D4601 /* Pods-PocPinterestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3074A3C41D01F456005D5A69 /* MakeUpApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3074A3EC1D01F456005D5A69 /* Build configuration list for PBXNativeTarget "MakeUpApp" */;
+			buildPhases = (
+				E3B885C9408B1182FF321F66 /* [CP] Check Pods Manifest.lock */,
+				3074A3C11D01F456005D5A69 /* Sources */,
+				3074A3C21D01F456005D5A69 /* Frameworks */,
+				3074A3C31D01F456005D5A69 /* Resources */,
+				872C73EA333C02C5BBDEBFA5 /* [CP] Embed Pods Frameworks */,
+				7D132D9C1DBA51A19D45398D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakeUpApp;
+			productName = PocPinterest;
+			productReference = 3074A3C51D01F456005D5A69 /* MakeUpApp.temp_caseinsensitive_rename.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3074A3D71D01F456005D5A69 /* MakeUpAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3074A3EF1D01F456005D5A69 /* Build configuration list for PBXNativeTarget "MakeUpAppTests" */;
+			buildPhases = (
+				573E6E38D96974FFE15F25CC /* [CP] Check Pods Manifest.lock */,
+				3074A3D41D01F456005D5A69 /* Sources */,
+				3074A3D51D01F456005D5A69 /* Frameworks */,
+				3074A3D61D01F456005D5A69 /* Resources */,
+				D2452AA354BBEDA4F8B91C4F /* [CP] Embed Pods Frameworks */,
+				013390D8FE5E11D7575DA426 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3074A3DA1D01F456005D5A69 /* PBXTargetDependency */,
+			);
+			name = MakeUpAppTests;
+			productName = PocPinterestTests;
+			productReference = 3074A3D81D01F456005D5A69 /* MakeUpApp.temp_caseinsensitive_rename.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3074A3E21D01F456005D5A69 /* MakeUpAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3074A3F21D01F456005D5A69 /* Build configuration list for PBXNativeTarget "MakeUpAppUITests" */;
+			buildPhases = (
+				CD4B21246CB4B95E7E127FAB /* [CP] Check Pods Manifest.lock */,
+				3074A3DF1D01F456005D5A69 /* Sources */,
+				3074A3E01D01F456005D5A69 /* Frameworks */,
+				3074A3E11D01F456005D5A69 /* Resources */,
+				1F7D0FFB0A71081514D0B28C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3074A3E51D01F456005D5A69 /* PBXTargetDependency */,
+			);
+			name = MakeUpAppUITests;
+			productName = PocPinterestUITests;
+			productReference = 3074A3E31D01F456005D5A69 /* MakeUpApp.temp_caseinsensitive_rename.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3074A3BD1D01F456005D5A69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kaique de Souza Monteiro";
+				TargetAttributes = {
+					3074A3C41D01F456005D5A69 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 59TJGNH243;
+					};
+					3074A3D71D01F456005D5A69 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3074A3C41D01F456005D5A69;
+					};
+					3074A3E21D01F456005D5A69 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3074A3C41D01F456005D5A69;
+					};
+				};
+			};
+			buildConfigurationList = 3074A3C01D01F456005D5A69 /* Build configuration list for PBXProject "MakeUpApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3074A3BC1D01F456005D5A69;
+			productRefGroup = 3074A3C61D01F456005D5A69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3074A3C41D01F456005D5A69 /* MakeUpApp */,
+				3074A3D71D01F456005D5A69 /* MakeUpAppTests */,
+				3074A3E21D01F456005D5A69 /* MakeUpAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3074A3C31D01F456005D5A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301421291D09CBEC00CAF2D4 /* Assets.xcassets in Resources */,
+				3014212C1D09CBEC00CAF2D4 /* Inspirations.storyboard in Resources */,
+				301421311D09CC0800CAF2D4 /* Info.plist in Resources */,
+				3014212E1D09CBEC00CAF2D4 /* Tutoriais.storyboard in Resources */,
+				3074A3D01D01F456005D5A69 /* Main.storyboard in Resources */,
+				3014212B1D09CBEC00CAF2D4 /* Info.plist in Resources */,
+				301421351D09CC1900CAF2D4 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3074A3D61D01F456005D5A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3074A3E11D01F456005D5A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		013390D8FE5E11D7575DA426 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocPinterestTests/Pods-PocPinterestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F7D0FFB0A71081514D0B28C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocPinterestUITests/Pods-PocPinterestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		573E6E38D96974FFE15F25CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D132D9C1DBA51A19D45398D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocPinterest/Pods-PocPinterest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		872C73EA333C02C5BBDEBFA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocPinterest/Pods-PocPinterest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD4B21246CB4B95E7E127FAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2452AA354BBEDA4F8B91C4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocPinterestTests/Pods-PocPinterestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B885C9408B1182FF321F66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3074A3C11D01F456005D5A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3014212D1D09CBEC00CAF2D4 /* SecondViewController.swift in Sources */,
+				301421321D09CC0800CAF2D4 /* PocPinterestTests.swift in Sources */,
+				301421281D09CBEC00CAF2D4 /* AppDelegate.swift in Sources */,
+				3014212A1D09CBEC00CAF2D4 /* FirstViewController.swift in Sources */,
+				301421361D09CC1900CAF2D4 /* PocPinterestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3074A3D41D01F456005D5A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3074A3DF1D01F456005D5A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3074A3DA1D01F456005D5A69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3074A3C41D01F456005D5A69 /* MakeUpApp */;
+			targetProxy = 3074A3D91D01F456005D5A69 /* PBXContainerItemProxy */;
+		};
+		3074A3E51D01F456005D5A69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3074A3C41D01F456005D5A69 /* MakeUpApp */;
+			targetProxy = 3074A3E41D01F456005D5A69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3074A3CE1D01F456005D5A69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3074A3CF1D01F456005D5A69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3074A3EA1D01F456005D5A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		3074A3EB1D01F456005D5A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3074A3ED1D01F456005D5A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A26846F475FDEDDE9F882433 /* Pods-PocPinterest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PocPinterest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.bepid.PocPinterest;
+				PRODUCT_NAME = MakeUpApp.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3074A3EE1D01F456005D5A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81DC0EB5FD8043AE565BE37B /* Pods-PocPinterest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PocPinterest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.bepid.PocPinterest;
+				PRODUCT_NAME = MakeUpApp.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		3074A3F01D01F456005D5A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951824CC3B45B1161782E385 /* Pods-PocPinterestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocPinterestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.bepid.PocPinterestTests;
+				PRODUCT_NAME = MakeUpApp.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeUpApp.temp_caseinsensitive_rename.app/MakeUpApp.temp_caseinsensitive_rename";
+			};
+			name = Debug;
+		};
+		3074A3F11D01F456005D5A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39FC3241E2CF2FFCA9D85BF3 /* Pods-PocPinterestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocPinterestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.bepid.PocPinterestTests;
+				PRODUCT_NAME = MakeUpApp.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeUpApp.temp_caseinsensitive_rename.app/MakeUpApp.temp_caseinsensitive_rename";
+			};
+			name = Release;
+		};
+		3074A3F31D01F456005D5A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D459B74B0928AC9A84A0D6 /* Pods-PocPinterestUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PocPinterestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.bepid.PocPinterestUITests;
+				PRODUCT_NAME = MakeUpApp.temp_caseinsensitive_rename;
+				TEST_TARGET_NAME = PocPinterest;
+			};
+			name = Debug;
+		};
+		3074A3F41D01F456005D5A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A70D2D94DA8119E72D4601 /* Pods-PocPinterestUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PocPinterestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.bepid.PocPinterestUITests;
+				PRODUCT_NAME = MakeUpApp.temp_caseinsensitive_rename;
+				TEST_TARGET_NAME = PocPinterest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3074A3C01D01F456005D5A69 /* Build configuration list for PBXProject "MakeUpApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3074A3EA1D01F456005D5A69 /* Debug */,
+				3074A3EB1D01F456005D5A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3074A3EC1D01F456005D5A69 /* Build configuration list for PBXNativeTarget "MakeUpApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3074A3ED1D01F456005D5A69 /* Debug */,
+				3074A3EE1D01F456005D5A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3074A3EF1D01F456005D5A69 /* Build configuration list for PBXNativeTarget "MakeUpAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3074A3F01D01F456005D5A69 /* Debug */,
+				3074A3F11D01F456005D5A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3074A3F21D01F456005D5A69 /* Build configuration list for PBXNativeTarget "MakeUpAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3074A3F31D01F456005D5A69 /* Debug */,
+				3074A3F41D01F456005D5A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3074A3BD1D01F456005D5A69 /* Project object */;
+}

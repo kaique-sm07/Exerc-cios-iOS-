@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.IO multiroom chat</title>
+    <meta charset="utf-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io.connect('http://172.16.1.214:3000/');
+      var channel = "";
+      
+      var addMessage = function(msg, user) {
+        $('<li>' + msg + " - send from - "+ user+'</li>').appendTo('#messages');
+      };
+      
+      $(document).ready(function() {
+      
+        $('#join').click(function() {
+          channel = $('#channel').val();
+          socket.emit('addUser', channel, "1");
+          $('#channel').attr('disabled','disabled');
+        });
+        
+        $('#send').click(function() {
+          console.log("manda");
+          var msg = $('#message').val();
+          addMessage(msg, channel);
+          socket.emit('sendMessage', [channel, "1", msg] );
+        });
+
+        socket.on('loadChat', function(data) {
+          console.log("aaaaaaa"+data);
+        });
+        
+        socket.on('updateChatMessage', function(data) {
+          addMessage(data.message, data.username);
+        });
+        
+        socket.on('error', function(err) {
+          addMessage('error: ' + err);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <input id="channel" type="text"><button id="join">Join</button>
+    <ol id="messages"></ol>
+    <input id="message" type="text"><button id="send">Send</button>
+  </body>
+</html>

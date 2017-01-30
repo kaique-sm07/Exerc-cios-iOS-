@@ -1,0 +1,6 @@
+framework module Pods_CarometroGravatar {
+  umbrella header "Pods-CarometroGravatar-umbrella.h"
+
+  export *
+  module * { export * }
+}

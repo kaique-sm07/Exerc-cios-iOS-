@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		856791D1E4FB7B0234410E87 /* Pods_MobyDickWordCount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE96123C399B17EF60165EFA /* Pods_MobyDickWordCount.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9314DA3F1B73E5BC00DE51C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314DA3E1B73E5BC00DE51C4 /* AppDelegate.swift */; };
+		9314DA441B73E5BC00DE51C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9314DA421B73E5BC00DE51C4 /* Main.storyboard */; };
+		9314DA461B73E5BC00DE51C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9314DA451B73E5BC00DE51C4 /* Images.xcassets */; };
+		9314DA491B73E5BC00DE51C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9314DA471B73E5BC00DE51C4 /* LaunchScreen.xib */; };
+		9314DA551B73E5BC00DE51C4 /* MobyDickWordCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314DA541B73E5BC00DE51C4 /* MobyDickWordCountTests.swift */; };
+		9314DA5F1B73E6C600DE51C4 /* WordCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314DA5E1B73E6C600DE51C4 /* WordCounter.swift */; };
+		9314DA651B73ED7900DE51C4 /* moby_dick.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9314DA641B73ED7900DE51C4 /* moby_dick.txt */; };
+		9314DA681B792A3A00DE51C4 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314DA671B792A3A00DE51C4 /* WordsTableViewController.swift */; };
+		93ABDDA71B798CF100EE79D7 /* WordCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314DA5E1B73E6C600DE51C4 /* WordCounter.swift */; };
+		93ABDDAA1B798EE200EE79D7 /* test_sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93ABDDA91B798EE200EE79D7 /* test_sample.txt */; };
+		93ABDDAB1B798F2100EE79D7 /* test_sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93ABDDA91B798EE200EE79D7 /* test_sample.txt */; };
+		93ABDDAD1B7A1E0600EE79D7 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABDDAC1B7A1E0600EE79D7 /* String+Extensions.swift */; };
+		93ABDDAE1B7A1FB200EE79D7 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABDDAC1B7A1E0600EE79D7 /* String+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9314DA4F1B73E5BC00DE51C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9314DA311B73E5BC00DE51C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9314DA381B73E5BC00DE51C4;
+			remoteInfo = MobyDickWordCount;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EDE8AC95CFFB445C262DA03 /* Pods-MobyDickWordCount.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobyDickWordCount.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobyDickWordCount/Pods-MobyDickWordCount.release.xcconfig"; sourceTree = "<group>"; };
+		9314DA391B73E5BC00DE51C4 /* MobyDickWordCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobyDickWordCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9314DA3D1B73E5BC00DE51C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9314DA3E1B73E5BC00DE51C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9314DA431B73E5BC00DE51C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9314DA451B73E5BC00DE51C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9314DA481B73E5BC00DE51C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9314DA4E1B73E5BC00DE51C4 /* MobyDickWordCountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobyDickWordCountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9314DA531B73E5BC00DE51C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9314DA541B73E5BC00DE51C4 /* MobyDickWordCountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobyDickWordCountTests.swift; sourceTree = "<group>"; };
+		9314DA5E1B73E6C600DE51C4 /* WordCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCounter.swift; sourceTree = "<group>"; };
+		9314DA601B73EC7200DE51C4 /* MobyDickWordCount-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobyDickWordCount-Bridging-Header.h"; sourceTree = "<group>"; };
+		9314DA641B73ED7900DE51C4 /* moby_dick.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = moby_dick.txt; sourceTree = "<group>"; };
+		9314DA671B792A3A00DE51C4 /* WordsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
+		93ABDDA91B798EE200EE79D7 /* test_sample.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_sample.txt; sourceTree = "<group>"; };
+		93ABDDAC1B7A1E0600EE79D7 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		CE96123C399B17EF60165EFA /* Pods_MobyDickWordCount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobyDickWordCount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FF2EF00F5E677B8DD8CED2 /* Pods-MobyDickWordCount.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobyDickWordCount.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobyDickWordCount/Pods-MobyDickWordCount.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9314DA361B73E5BC00DE51C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856791D1E4FB7B0234410E87 /* Pods_MobyDickWordCount.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9314DA4B1B73E5BC00DE51C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F9AF99A671FEE054C130A0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3FF2EF00F5E677B8DD8CED2 /* Pods-MobyDickWordCount.debug.xcconfig */,
+				2EDE8AC95CFFB445C262DA03 /* Pods-MobyDickWordCount.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9314DA301B73E5BC00DE51C4 = {
+			isa = PBXGroup;
+			children = (
+				9314DA3B1B73E5BC00DE51C4 /* MobyDickWordCount */,
+				9314DA511B73E5BC00DE51C4 /* MobyDickWordCountTests */,
+				9314DA3A1B73E5BC00DE51C4 /* Products */,
+				7F9AF99A671FEE054C130A0F /* Pods */,
+				B6F3EE65480522C51F340C3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9314DA3A1B73E5BC00DE51C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9314DA391B73E5BC00DE51C4 /* MobyDickWordCount.app */,
+				9314DA4E1B73E5BC00DE51C4 /* MobyDickWordCountTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9314DA3B1B73E5BC00DE51C4 /* MobyDickWordCount */ = {
+			isa = PBXGroup;
+			children = (
+				9314DA641B73ED7900DE51C4 /* moby_dick.txt */,
+				9314DA3E1B73E5BC00DE51C4 /* AppDelegate.swift */,
+				9314DA671B792A3A00DE51C4 /* WordsTableViewController.swift */,
+				93ABDDAC1B7A1E0600EE79D7 /* String+Extensions.swift */,
+				9314DA5E1B73E6C600DE51C4 /* WordCounter.swift */,
+				9314DA421B73E5BC00DE51C4 /* Main.storyboard */,
+				9314DA451B73E5BC00DE51C4 /* Images.xcassets */,
+				9314DA471B73E5BC00DE51C4 /* LaunchScreen.xib */,
+				9314DA3C1B73E5BC00DE51C4 /* Supporting Files */,
+				9314DA601B73EC7200DE51C4 /* MobyDickWordCount-Bridging-Header.h */,
+			);
+			path = MobyDickWordCount;
+			sourceTree = "<group>";
+		};
+		9314DA3C1B73E5BC00DE51C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9314DA3D1B73E5BC00DE51C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9314DA511B73E5BC00DE51C4 /* MobyDickWordCountTests */ = {
+			isa = PBXGroup;
+			children = (
+				93ABDDA91B798EE200EE79D7 /* test_sample.txt */,
+				9314DA541B73E5BC00DE51C4 /* MobyDickWordCountTests.swift */,
+				9314DA521B73E5BC00DE51C4 /* Supporting Files */,
+			);
+			path = MobyDickWordCountTests;
+			sourceTree = "<group>";
+		};
+		9314DA521B73E5BC00DE51C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9314DA531B73E5BC00DE51C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6F3EE65480522C51F340C3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE96123C399B17EF60165EFA /* Pods_MobyDickWordCount.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9314DA381B73E5BC00DE51C4 /* MobyDickWordCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9314DA581B73E5BC00DE51C4 /* Build configuration list for PBXNativeTarget "MobyDickWordCount" */;
+			buildPhases = (
+				5D5F66600B8DB8279BEEDC1B /* Check Pods Manifest.lock */,
+				9314DA351B73E5BC00DE51C4 /* Sources */,
+				9314DA361B73E5BC00DE51C4 /* Frameworks */,
+				9314DA371B73E5BC00DE51C4 /* Resources */,
+				969F5ABE62E49909D9BC7479 /* Copy Pods Resources */,
+				0DC7E8CB82D9557F1ABF9C56 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobyDickWordCount;
+			productName = MobyDickWordCount;
+			productReference = 9314DA391B73E5BC00DE51C4 /* MobyDickWordCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9314DA4D1B73E5BC00DE51C4 /* MobyDickWordCountTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9314DA5B1B73E5BC00DE51C4 /* Build configuration list for PBXNativeTarget "MobyDickWordCountTests" */;
+			buildPhases = (
+				9314DA4A1B73E5BC00DE51C4 /* Sources */,
+				9314DA4B1B73E5BC00DE51C4 /* Frameworks */,
+				9314DA4C1B73E5BC00DE51C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9314DA501B73E5BC00DE51C4 /* PBXTargetDependency */,
+			);
+			name = MobyDickWordCountTests;
+			productName = MobyDickWordCountTests;
+			productReference = 9314DA4E1B73E5BC00DE51C4 /* MobyDickWordCountTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9314DA311B73E5BC00DE51C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Augusto;
+				TargetAttributes = {
+					9314DA381B73E5BC00DE51C4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					9314DA4D1B73E5BC00DE51C4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 9314DA381B73E5BC00DE51C4;
+					};
+				};
+			};
+			buildConfigurationList = 9314DA341B73E5BC00DE51C4 /* Build configuration list for PBXProject "MobyDickWordCount" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9314DA301B73E5BC00DE51C4;
+			productRefGroup = 9314DA3A1B73E5BC00DE51C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9314DA381B73E5BC00DE51C4 /* MobyDickWordCount */,
+				9314DA4D1B73E5BC00DE51C4 /* MobyDickWordCountTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9314DA371B73E5BC00DE51C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93ABDDAB1B798F2100EE79D7 /* test_sample.txt in Resources */,
+				9314DA651B73ED7900DE51C4 /* moby_dick.txt in Resources */,
+				9314DA441B73E5BC00DE51C4 /* Main.storyboard in Resources */,
+				9314DA491B73E5BC00DE51C4 /* LaunchScreen.xib in Resources */,
+				9314DA461B73E5BC00DE51C4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9314DA4C1B73E5BC00DE51C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93ABDDAA1B798EE200EE79D7 /* test_sample.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DC7E8CB82D9557F1ABF9C56 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobyDickWordCount/Pods-MobyDickWordCount-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D5F66600B8DB8279BEEDC1B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		969F5ABE62E49909D9BC7479 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobyDickWordCount/Pods-MobyDickWordCount-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9314DA351B73E5BC00DE51C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93ABDDAD1B7A1E0600EE79D7 /* String+Extensions.swift in Sources */,
+				9314DA5F1B73E6C600DE51C4 /* WordCounter.swift in Sources */,
+				9314DA3F1B73E5BC00DE51C4 /* AppDelegate.swift in Sources */,
+				9314DA681B792A3A00DE51C4 /* WordsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9314DA4A1B73E5BC00DE51C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93ABDDA71B798CF100EE79D7 /* WordCounter.swift in Sources */,
+				93ABDDAE1B7A1FB200EE79D7 /* String+Extensions.swift in Sources */,
+				9314DA551B73E5BC00DE51C4 /* MobyDickWordCountTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9314DA501B73E5BC00DE51C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9314DA381B73E5BC00DE51C4 /* MobyDickWordCount */;
+			targetProxy = 9314DA4F1B73E5BC00DE51C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9314DA421B73E5BC00DE51C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9314DA431B73E5BC00DE51C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9314DA471B73E5BC00DE51C4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9314DA481B73E5BC00DE51C4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9314DA561B73E5BC00DE51C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9314DA571B73E5BC00DE51C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9314DA591B73E5BC00DE51C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3FF2EF00F5E677B8DD8CED2 /* Pods-MobyDickWordCount.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MobyDickWordCount/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MobyDickWordCount/MobyDickWordCount-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9314DA5A1B73E5BC00DE51C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDE8AC95CFFB445C262DA03 /* Pods-MobyDickWordCount.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MobyDickWordCount/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MobyDickWordCount/MobyDickWordCount-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		9314DA5C1B73E5BC00DE51C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MobyDickWordCountTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobyDickWordCount.app/MobyDickWordCount";
+			};
+			name = Debug;
+		};
+		9314DA5D1B73E5BC00DE51C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MobyDickWordCountTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobyDickWordCount.app/MobyDickWordCount";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9314DA341B73E5BC00DE51C4 /* Build configuration list for PBXProject "MobyDickWordCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9314DA561B73E5BC00DE51C4 /* Debug */,
+				9314DA571B73E5BC00DE51C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9314DA581B73E5BC00DE51C4 /* Build configuration list for PBXNativeTarget "MobyDickWordCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9314DA591B73E5BC00DE51C4 /* Debug */,
+				9314DA5A1B73E5BC00DE51C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9314DA5B1B73E5BC00DE51C4 /* Build configuration list for PBXNativeTarget "MobyDickWordCountTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9314DA5C1B73E5BC00DE51C4 /* Debug */,
+				9314DA5D1B73E5BC00DE51C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9314DA311B73E5BC00DE51C4 /* Project object */;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Challenge" representedClassName="MiniChallengeTracker.Challenge" syncable="YES">
+        <attribute name="duration" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="endDate" attributeType="Date" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="startDate" attributeType="Date" syncable="YES"/>
+        <relationship name="groupList" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Group" inverseName="challenge" inverseEntity="Group" syncable="YES"/>
+    </entity>
+    <entity name="Group" representedClassName="MiniChallengeTracker.Group" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfPeople" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="projectDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="challenge" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Challenge" inverseName="groupList" inverseEntity="Challenge" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Challenge" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Group" positionX="-54" positionY="18" width="128" height="105"/>
+    </elements>
+</model>
